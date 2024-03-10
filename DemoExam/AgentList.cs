@@ -41,7 +41,7 @@ namespace DemoExam
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        public void textBox1_TextChanged(object sender, EventArgs e)
         {
             AgentItemsCreation();
         }
@@ -197,7 +197,7 @@ namespace DemoExam
             AgentItemsCreation();
         }
 
-        private void button3_Click ( object sender, EventArgs e )
+        public void button3_Click ( object sender, EventArgs e )
         {
             if (currentPage != pages)
             {
@@ -208,7 +208,7 @@ namespace DemoExam
             }
         }
 
-        private void button4_Click ( object sender, EventArgs e )
+        public void button4_Click ( object sender, EventArgs e )
         {
             if (AgentCount != 0)
             {

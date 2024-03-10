@@ -40,33 +40,52 @@ namespace SellPaper_UnitTest
             }
         }
 
-        #region Additional test attributes
-        //
-        // You can use the following additional attributes as you write your tests:
-        //
-        // Use ClassInitialize to run code before running the first test in the class
-        // [ClassInitialize()]
-        // public static void MyClassInitialize(TestContext testContext) { }
-        //
-        // Use ClassCleanup to run code after all tests in a class have run
-        // [ClassCleanup()]
-        // public static void MyClassCleanup() { }
-        //
-        // Use TestInitialize to run code before running each test 
-        // [TestInitialize()]
-        // public void MyTestInitialize() { }
-        //
-        // Use TestCleanup to run code after each test has run
-        // [TestCleanup()]
-        // public void MyTestCleanup() { }
-        //
-        #endregion
+        private AgentList form;
+        private SellPaper_Test3Entities dbContext;
+        private AddAgent addForm;
+
+        [TestInitialize]
+        public void Setup()
+        {
+            dbContext = new SellPaper_Test3Entities();
+            form = new AgentList();
+            addForm = new AddAgent();
+        }
 
         [TestMethod]
-        public void TestAgentRetrieval ()
+        public void button2_Click_PageChange()
+        {
+            form.button4_Click(null, null);
+            Assert.AreEqual("1", form.currentPage.ToString());
+        }
+
+        [TestMethod]
+        public void Exit_Click_ClosesForm()
+        {
+            addForm.button2_Click(null, null);
+            Assert.IsFalse(addForm.Visible);
+        }
+
+        [TestMethod]
+        public void TextBox1_TextChanged_Test()
+        {
+            form.textBox1.Text = "100";
+            form.textBox1_TextChanged(null, null);
+            Assert.AreEqual("100", form.textBox1.Text);
+        }
+
+        [TestMethod]
+        public void button3_Click_PageChange()
+        {
+            form.button3_Click(null, null);
+            Assert.AreEqual("2", form.currentPage.ToString());
+        }
+
+        [TestMethod]
+        public void TestAgentRetrieval()
         {
             // Arrange
-            using (var db = new SellPaper_Test3Entities())
+            using (SellPaper_Test3Entities db = new SellPaper_Test3Entities())
             {
                 // Act
                 var agents = db.Agent.ToList();
@@ -75,6 +94,12 @@ namespace SellPaper_UnitTest
                 Assert.IsNotNull(agents);
                 Assert.IsTrue(agents.Count > 0);
             }
+        }
+
+        [TestCleanup]
+        public void TearDown()
+        {
+            form.Dispose();
         }
     }
 }
