@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoExam", "DemoExam\DemoEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SellPaper_UnitTest", "SellPaper_UnitTest\SellPaper_UnitTest.csproj", "{53EAE99B-E4CA-410C-8D4C-867C92D68A2E}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SellPaperInstaller", "SellPaperInstaller\SellPaperInstaller.vdproj", "{0C5C06A2-FD8A-47A9-A231-7CC8F8EB8471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,8 @@ Global
 		{53EAE99B-E4CA-410C-8D4C-867C92D68A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53EAE99B-E4CA-410C-8D4C-867C92D68A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53EAE99B-E4CA-410C-8D4C-867C92D68A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C5C06A2-FD8A-47A9-A231-7CC8F8EB8471}.Debug|Any CPU.ActiveCfg = Debug
+		{0C5C06A2-FD8A-47A9-A231-7CC8F8EB8471}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

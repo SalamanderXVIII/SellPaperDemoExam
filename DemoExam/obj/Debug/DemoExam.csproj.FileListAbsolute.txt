@@ -177,3 +177,6 @@ D:\DemoExam\DemoExam\DemoExam\obj\Debug\DemoExam.pdb
 D:\DemoExam\DemoExam\DemoExam\obj\Debug\DemoExam.ChangeAgentsPriority.resources
 D:\DemoExam\DemoExam\DemoExam\obj\Debug\DemoExam.ProductSaleHistory.resources
 D:\DemoExam\DemoExam\DemoExam\obj\Debug\DemoExam.AddProductSale.resources
+D:\Pictures\DemoExam\SellPaperDemoExam\DemoExam\obj\Debug\DemoExam.csproj.AssemblyReference.cache
+D:\Pictures\DemoExam\SellPaperDemoExam\DemoExam\obj\Debug\DemoExam.exe
+D:\Pictures\DemoExam\SellPaperDemoExam\DemoExam\obj\Debug\DemoExam.pdb
