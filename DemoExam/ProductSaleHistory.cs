@@ -20,17 +20,11 @@ namespace DemoExam
 
         private void ProductSaleHistory_Load ( object sender, EventArgs e )
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "sellPaper_Test3DataSet1.ProductSaleWithNames". При необходимости она может быть перемещена или удалена.
+            this.productSaleWithNamesTableAdapter.Fill(this.sellPaper_Test3DataSet1.ProductSaleWithNames);
             SellPaper_Test3DataSet modelDB = new SellPaper_Test3DataSet();
             // TODO: данная строка кода позволяет загрузить данные в таблицу "sellPaper_Test3DataSet.ProductSale". При необходимости она может быть перемещена или удалена.
             this.productSaleTableAdapter.Fill(this.sellPaper_Test3DataSet.ProductSale);
-            var rows = dataGridView1.Rows;
-            for ( int i = 0; i < rows.Count; i++)
-            {
-                var agentData = modelDB.Agent.SingleOrDefault(x => x.ID == int.Parse(rows[i].Cells[1].Value.ToString()));
-                var productData = modelDB.Product.SingleOrDefault(x => x.ID == int.Parse(rows[i].Cells[2].Value.ToString()));
-                rows[i].Cells[1].Value = agentData.Title;
-                rows[i].Cells[2].Value = productData.Title;
-            }
         }
 
         private void dataGridView1_CellContentClick ( object sender, DataGridViewCellEventArgs e )

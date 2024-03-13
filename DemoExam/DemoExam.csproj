@@ -248,6 +248,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SellPaper_Test3DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SellPaper_Test3DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SellPaper_Test3DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Shop.cs">
       <DependentUpon>ModelDB.tt</DependentUpon>
     </Compile>
@@ -320,6 +325,17 @@
     </None>
     <None Include="SellPaper_Test3DataSet.xss">
       <DependentUpon>SellPaper_Test3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SellPaper_Test3DataSet1.xsc">
+      <DependentUpon>SellPaper_Test3DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SellPaper_Test3DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SellPaper_Test3DataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SellPaper_Test3DataSet1.xss">
+      <DependentUpon>SellPaper_Test3DataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>

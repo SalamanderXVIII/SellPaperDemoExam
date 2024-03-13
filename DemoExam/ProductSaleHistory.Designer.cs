@@ -38,15 +38,22 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.sellPaper_Test3DataSet1 = new DemoExam.SellPaper_Test3DataSet1();
+            this.sellPaperTest3DataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.productSaleWithNamesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.productSaleWithNamesTableAdapter = new DemoExam.SellPaper_Test3DataSet1TableAdapters.ProductSaleWithNamesTableAdapter();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.agentIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.productIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.titleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.expr1DataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.saleDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.productCountDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.productSaleBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sellPaper_Test3DataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sellPaper_Test3DataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sellPaperTest3DataSet1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productSaleWithNamesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -55,11 +62,11 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.iDDataGridViewTextBoxColumn,
-            this.agentIDDataGridViewTextBoxColumn,
-            this.productIDDataGridViewTextBoxColumn,
+            this.titleDataGridViewTextBoxColumn,
+            this.expr1DataGridViewTextBoxColumn,
             this.saleDateDataGridViewTextBoxColumn,
             this.productCountDataGridViewTextBoxColumn});
-            this.dataGridView1.DataSource = this.productSaleBindingSource;
+            this.dataGridView1.DataSource = this.productSaleWithNamesBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(14, 82);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(393, 395);
@@ -122,39 +129,59 @@
             this.pictureBox1.TabIndex = 61;
             this.pictureBox1.TabStop = false;
             // 
+            // sellPaper_Test3DataSet1
+            // 
+            this.sellPaper_Test3DataSet1.DataSetName = "SellPaper_Test3DataSet1";
+            this.sellPaper_Test3DataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // sellPaperTest3DataSet1BindingSource
+            // 
+            this.sellPaperTest3DataSet1BindingSource.DataSource = this.sellPaper_Test3DataSet1;
+            this.sellPaperTest3DataSet1BindingSource.Position = 0;
+            // 
+            // productSaleWithNamesBindingSource
+            // 
+            this.productSaleWithNamesBindingSource.DataMember = "ProductSaleWithNames";
+            this.productSaleWithNamesBindingSource.DataSource = this.sellPaperTest3DataSet1BindingSource;
+            // 
+            // productSaleWithNamesTableAdapter
+            // 
+            this.productSaleWithNamesTableAdapter.ClearBeforeFill = true;
+            // 
             // iDDataGridViewTextBoxColumn
             // 
             this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
             this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
             this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
-            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
             this.iDDataGridViewTextBoxColumn.Width = 30;
             // 
-            // agentIDDataGridViewTextBoxColumn
+            // titleDataGridViewTextBoxColumn
             // 
-            this.agentIDDataGridViewTextBoxColumn.DataPropertyName = "AgentID";
-            this.agentIDDataGridViewTextBoxColumn.HeaderText = "Агент";
-            this.agentIDDataGridViewTextBoxColumn.Name = "agentIDDataGridViewTextBoxColumn";
-            this.agentIDDataGridViewTextBoxColumn.Width = 50;
+            this.titleDataGridViewTextBoxColumn.DataPropertyName = "Title";
+            this.titleDataGridViewTextBoxColumn.HeaderText = "Агент";
+            this.titleDataGridViewTextBoxColumn.Name = "titleDataGridViewTextBoxColumn";
+            this.titleDataGridViewTextBoxColumn.Width = 80;
             // 
-            // productIDDataGridViewTextBoxColumn
+            // expr1DataGridViewTextBoxColumn
             // 
-            this.productIDDataGridViewTextBoxColumn.DataPropertyName = "ProductID";
-            this.productIDDataGridViewTextBoxColumn.HeaderText = "Продукт";
-            this.productIDDataGridViewTextBoxColumn.Name = "productIDDataGridViewTextBoxColumn";
-            this.productIDDataGridViewTextBoxColumn.Width = 60;
+            this.expr1DataGridViewTextBoxColumn.DataPropertyName = "Expr1";
+            this.expr1DataGridViewTextBoxColumn.HeaderText = "Продукт";
+            this.expr1DataGridViewTextBoxColumn.Name = "expr1DataGridViewTextBoxColumn";
+            this.expr1DataGridViewTextBoxColumn.Width = 80;
             // 
             // saleDateDataGridViewTextBoxColumn
             // 
             this.saleDateDataGridViewTextBoxColumn.DataPropertyName = "SaleDate";
             this.saleDateDataGridViewTextBoxColumn.HeaderText = "Дата продажи";
             this.saleDateDataGridViewTextBoxColumn.Name = "saleDateDataGridViewTextBoxColumn";
+            this.saleDateDataGridViewTextBoxColumn.Width = 80;
             // 
             // productCountDataGridViewTextBoxColumn
             // 
             this.productCountDataGridViewTextBoxColumn.DataPropertyName = "ProductCount";
-            this.productCountDataGridViewTextBoxColumn.HeaderText = "Кол-во продаж";
+            this.productCountDataGridViewTextBoxColumn.HeaderText = "Кол-во продукта";
             this.productCountDataGridViewTextBoxColumn.Name = "productCountDataGridViewTextBoxColumn";
+            this.productCountDataGridViewTextBoxColumn.Width = 80;
             // 
             // ProductSaleHistory
             // 
@@ -173,6 +200,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.productSaleBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sellPaper_Test3DataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sellPaper_Test3DataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sellPaperTest3DataSet1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productSaleWithNamesBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -188,9 +218,13 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.BindingSource sellPaperTest3DataSet1BindingSource;
+        private SellPaper_Test3DataSet1 sellPaper_Test3DataSet1;
+        private System.Windows.Forms.BindingSource productSaleWithNamesBindingSource;
+        private SellPaper_Test3DataSet1TableAdapters.ProductSaleWithNamesTableAdapter productSaleWithNamesTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn agentIDDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn productIDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn titleDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn expr1DataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn saleDateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn productCountDataGridViewTextBoxColumn;
     }

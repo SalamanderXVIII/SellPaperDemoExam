@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|d:\\pictures\\demoexam\\sellpaperdemoexam\\demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|D:\\Pictures\\DemoExam\\SellPaperDemoExam\\demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|d:\\pictures\\demoexam\\sellpaperdemoexam\\demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|D:\\Pictures\\DemoExam\\SellPaperDemoExam\\demoexam\\agentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\agentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|d:\\pictures\\demoexam\\sellpaperdemoexam\\demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\productsalehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|D:\\Pictures\\DemoExam\\SellPaperDemoExam\\demoexam\\addagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\addagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|D:\\Pictures\\DemoExam\\SellPaperDemoExam\\demoexam\\agentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\agentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|D:\\Pictures\\DemoExam\\SellPaperDemoExam\\demoexam\\agentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70E780DC-E364-456C-BF61-F633C3934AA6}|DemoExam\\DemoExam.csproj|solutionrelative:demoexam\\agentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,24 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductSaleHistory.cs",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\ProductSaleHistory.cs",
               "RelativeDocumentMoniker": "DemoExam\\ProductSaleHistory.cs",
               "ToolTip": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\ProductSaleHistory.cs",
               "RelativeToolTip": "DemoExam\\ProductSaleHistory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA7AAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-11T21:15:01.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductSaleHistory.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\ProductSaleHistory.cs",
               "RelativeDocumentMoniker": "DemoExam\\ProductSaleHistory.cs",
@@ -71,19 +71,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AgentItem.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AgentItem.cs",
               "RelativeDocumentMoniker": "DemoExam\\AgentItem.cs",
               "ToolTip": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AgentItem.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "DemoExam\\AgentItem.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:18:48.764Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-03-10T16:18:48.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddAgent.cs",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AddAgent.cs",
               "RelativeDocumentMoniker": "DemoExam\\AddAgent.cs",
@@ -91,20 +90,18 @@
               "RelativeToolTip": "DemoExam\\AddAgent.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAjwBkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:12:49.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-10T16:12:49.596Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddAgent.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AddAgent.cs",
               "RelativeDocumentMoniker": "DemoExam\\AddAgent.cs",
               "ToolTip": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AddAgent.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "DemoExam\\AddAgent.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:12:39.51Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-03-10T16:12:39.51Z"
             },
             {
               "$type": "Document",
@@ -116,11 +113,12 @@
               "RelativeToolTip": "DemoExam\\AgentList.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAmwNAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:11:16.857Z"
+              "WhenOpened": "2024-03-10T16:11:16.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\SellPaper_UnitTest\\UnitTest1.cs",
               "RelativeDocumentMoniker": "SellPaper_UnitTest\\UnitTest1.cs",
@@ -128,19 +126,19 @@
               "RelativeToolTip": "SellPaper_UnitTest\\UnitTest1.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAAYwF0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-10T16:10:08.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-10T16:10:08.489Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "AgentList.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AgentList.cs",
               "RelativeDocumentMoniker": "DemoExam\\AgentList.cs",
               "ToolTip": "D:\\Pictures\\DemoExam\\SellPaperDemoExam\\DemoExam\\AgentList.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "DemoExam\\AgentList.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-25T16:13:21.342Z"
+              "WhenOpened": "2024-02-25T16:13:21.342Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }
